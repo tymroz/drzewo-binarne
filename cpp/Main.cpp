@@ -167,7 +167,7 @@ void handleOperations(BinarySearchTree<T>& tree) {
                 break;
             }
             case 3: {
-                std::cout << "Podaj wartość do usunięcia:\n";
+                std::cout << "Podaj wartosc do usuniecia:\n";
                 T value;
                 std::cin >> value;
                 std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
